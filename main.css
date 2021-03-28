@@ -1,0 +1,690 @@
+@font-face {
+font-family: Gotham-Bold;
+src: url("C:/Users/Влад/Desktop/RPI lab1/shrift/GothamRoundedBold_21016.ttf");
+}
+
+@font-face {
+font-family: Gotham-Book;
+src: url(C:/Users/Влад/Desktop/RPI lab1/shrift/GothamRoundedBook_21018.ttf);
+}
+
+@font-face {
+font-family: Gotham-Medium;
+src: url(C:/Users/Влад/Desktop/RPI lab1/shrift/GothamRoundedMedium_21022.ttf);
+}
+
+@font-face {
+font-family: Gotham-Light;
+src: url(C:/Users/Влад/Desktop/RPI lab1/shrift/GothamRounded-Light.otf);
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.list{
+    position:absolute;
+    left:120px;
+    
+}
+
+.fon1 {
+    width: 1280px;
+    height: 745px;
+    
+}
+
+.fon2 {
+       
+}
+
+.fon3 {
+    position:relative;
+    top: -300px;
+}
+
+.fon4 {
+    position:relative;
+    top: -505px;
+}
+
+.fon5 {
+    position:relative;
+    height: 790px;
+    top: -752px;
+}
+
+.fon6 {
+    position:relative;
+    width: 1280px;
+    height: 790px;
+    top: -753px;
+}
+
+.elements{
+    position:relative;
+    top: -705px;
+    left: 607px;
+} /*elements of fon1*/
+
+.elements1{
+    position:relative;
+    top: -511px;
+    left: 591px;
+}
+
+.elements2{
+    position:relative;
+    top: -511px;
+    left: 602.7px;
+
+}
+
+.elements3{
+    position:relative;
+    top: -510px;
+    left: 615px;
+}
+
+.elements4{
+    position:relative;
+    top: -732.5px; /*-747, 556*/
+    left: 556px;
+    z-index: 3;
+}
+
+.el1{
+    position:relative;
+    width: 370px;
+    top: -362px;
+    left: 386px;
+}
+
+.el2{
+    position:relative;
+    width: 370px;
+    top: -362px;;
+    left: 406px;
+}
+
+h1{
+    visibility: hidden;
+}/*menubar*/
+
+.menubar1{
+     position:relative;
+     top: -810px;;
+     left: 271px;
+     color: white;
+     font-family:Gotham-Bold;
+     letter-spacing: 3px;
+     width: 0;
+}
+
+.menubar2{
+     position:relative;
+     top: -845px;;
+     left: 395px;
+     color: white;
+     font-family:Gotham-Bold;
+     letter-spacing: 2.5px;
+     width: 0;
+}
+
+.menubar3{
+     position:relative;
+     top: -881px;;
+     left: 758px;
+     color: white;
+     font-family:Gotham-Bold;
+     letter-spacing: 2.5px;
+     width: 0;
+}
+
+.menubar4{
+     position:relative;
+     top: -916px;;
+     left: 911px;
+     color: white;
+     font-family:Gotham-Bold;
+     letter-spacing: 2.5px;
+     width: 0;
+}
+
+.text1{
+     position:relative;
+     top: -705px;;
+     left: 390px;
+     color: white;
+     font-size: 35;
+     font-family:Gotham-Bold;
+     letter-spacing: 6px;
+}
+
+.labal1{
+     position:relative;
+     top: -732px;;
+     left: 475px;
+     color: white;
+     font-size: 14;
+     font-family:Gotham-Bold;
+     letter-spacing: 3.25px;
+}
+
+.button1 {
+     height: 0px;
+     position:relative;
+     z-index: 5;
+     top: -701px;
+     left: 587px;
+     color: white;
+     font-size: 12;
+     font-family:Gotham-Bold;
+     letter-spacing: 1.8px;
+     
+}
+
+
+.btn1:hover .button1{
+    color:black;
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.menubar1:hover, .menubar2:hover,.menubar3:hover,.menubar4:hover  {
+    color:black;
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.elements1:hover, .elements2:hover, .elements3:hover {
+
+    cursor:pointer;
+    top: -516px;
+}
+
+.text2{
+     position:relative;
+     z-index: 3;
+     top:  110px;
+     left: 129px;
+     color: #16a085;
+     font-size: 17;
+     font-family:Gotham-Bold;
+     letter-spacing: 3.3px;
+     height: 0;
+}
+
+.labal2{
+     position:relative;
+     z-index: 3;
+     top:  189px;
+     left: 127px;
+     color: black;
+     font-size: 14;
+     font-family:Gotham-Book;
+     letter-spacing: 2.150px;
+     line-height: 1.75;
+     height: 0;
+}
+
+
+.elements2_1{
+    position:absolute;
+    top: 1096px; /*-747, 556*/
+    left: 129px;
+    z-index: 3;
+}
+
+.button2 {
+     position:relative;
+     z-index: 6;
+     top:  372.5px;
+     left: 172px;
+     color: white;
+     font-size: 11;
+     font-family:Gotham-Bold;
+     letter-spacing: 2.5px;
+     height: 0;
+}
+
+.btn2:hover .button2{
+    color:black;
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+
+.text3{
+     position:relative;
+     z-index: 3;
+     top:  142.75px;
+     left: 765px;
+     color: #16a085;
+     font-size: 17;
+     font-family:Gotham-Bold;
+     letter-spacing: 3.3px;
+     height: 0;
+}
+
+.labal3{
+     position:relative;
+     z-index: 3;
+     top:  197px;
+     left: 768px;
+     color: black;
+     font-size: 14;
+     font-family:Gotham-Book;
+     letter-spacing: 2.150px;
+     line-height: 1.55;
+     height: 0;
+}
+
+
+.elements3_1{
+    position:absolute;
+    top:  345px;
+    left: 767.5px;
+    z-index: 3;
+}
+
+.button3 {
+     position:relative;
+     z-index: 6;
+     top:  365px;
+     left: 810px;
+     color: white;
+     font-size: 11;
+     font-family:Gotham-Bold;
+     letter-spacing: 2.5px;
+     height: 0;
+}
+
+.btn3:hover .button3{
+    color:black;
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.pointer1{
+     position:relative;
+     z-index: 3;
+     top:  439.5px;
+     left: 766px;
+     color: black;
+     font-size: 12.5;
+     font-family:Gotham-Bold;
+     letter-spacing: 1px;
+     height: 0;
+}
+
+.pointer2{
+     position:relative;
+     z-index: 3;
+     top:  439.5px;
+     left: 782.75px;
+     color: black;
+     font-size: 12.5;
+     font-family:Gotham-Bold;
+     letter-spacing: 1px;
+     height: 0;
+}
+
+.pointer3{
+     position:relative;
+     z-index: 3;
+     top:  439.5px;
+     left: 791.75px;
+     color: black;
+     font-size: 12.5;
+     font-family:Gotham-Bold;
+     letter-spacing: 1px;
+     height: 0;
+}
+
+.left{
+    position:absolute;
+    top:  459.5px;
+    left: 766.25px;
+    z-index: 3;
+}
+
+
+.right{
+    position:absolute;
+    top:  459.5px;
+    left: 798.5px;
+    z-index: 3;
+}
+
+
+.move .left:hover, .right:hover{
+    top:  447.5px;
+    cursor:pointer;
+}
+
+.text4{
+     position:relative;
+     z-index: 3;
+     top:  248px;
+     left: 127px;
+     color: black;
+     font-size: 17;
+     font-family:Gotham-Bold;
+     letter-spacing: 1.8px;
+     height: 0;
+}
+
+.labal4_1, .labal4_2, .labal4_3{
+     position:relative;
+     z-index: 3;
+     color: black;
+     font-size: 10;
+     font-family:Gotham-Book;
+     letter-spacing: 2.45px;
+     height: 0;
+}
+
+.labal4_1{
+    top:  287px;
+    left: 148px;
+}
+
+.labal4_2{
+    top:  298.75px;
+    left: 159px;
+    letter-spacing: 2.85px;
+}
+
+.labal4_3{
+    top:  311px;
+    left: 168.75px;
+    letter-spacing: 2.45px;
+}
+
+
+.move1 .left{
+    top:  95px;
+    left: 1112.75px;
+}
+.move1 .right{
+    top:  95px;
+    left: 1140.5px;
+}
+.move1 .left:hover, .move1 .right:hover{
+    top:  90px;
+    cursor:pointer;
+}
+
+.text5{
+     position:relative;
+     z-index: 3;
+     top:  348.55px;
+     left: 402.75px;
+     color: white;
+     font-size: 22;
+     font-family:Gotham-Bold;
+     letter-spacing: 5px;
+     height: 0;
+}
+
+
+
+.check
+{
+    top:  404.55px;
+    left: 747px;
+    position:absolute;
+    background:#16a085;
+    border: none;
+    width: 62.9px;
+    height: 59.8;
+}
+
+.line{
+    
+    position:absolute;
+    width: 281.75px;
+    height: 60;
+    top:  404.55px;
+    left: 466.1px;
+    border-color: none;
+    color: black;
+    font-size: 15;
+    font-family:Gotham-Bold;
+    letter-spacing: 2px;
+    
+}
+
+    .check:hover{
+    background:red;
+    cursor:pointer;
+}
+
+.text6{
+     position:relative;
+     z-index: 3;
+     top:  87.75px;
+     left: 547px;
+     color: black;
+     font-size: 18;
+     font-family:Gotham-Bold;
+     letter-spacing: 4.5px;
+     height: 0;
+}
+
+.labal6_1, .labal6_2, .labal6_3{
+     position:relative;
+     z-index: 3;
+     color: black;
+     font-size: 12;
+     font-family:Gotham-Book;
+     letter-spacing: 2px;
+     height: 0;
+}
+
+.labal6_1{
+    top:  121.5px;
+    left: 219px;
+    letter-spacing: 2.445px;
+}
+
+.labal6_2{
+    top:  144px;
+    left: 223px;
+    letter-spacing: 2.355;
+}
+.labal6_3{
+    top:  165.5px;
+    left: 418.5px;
+    letter-spacing: 2.445px;
+}
+
+.android, .apple{
+    z-index: 3;
+}
+
+.app1
+{
+    position:absolute;
+    background:#1abc9c;
+    color:white;
+    border: none;
+    font-size: 14;
+    font-family:Gotham-Bold;
+    height: 0;
+
+    
+    top:  224px;
+    left: 329.5px;
+    
+    width: 240.5px;
+    height: 56;
+}
+
+#ap{
+    margin-left: -50px;
+    margin-top: 4px;
+    letter-spacing: 4px;
+}
+.app2{
+    position:absolute;
+    background:#16a085;
+    border: none;
+    
+    top:  224px;
+    left: 570px;
+    
+    width: 55.5px;
+    height: 56;
+}
+
+.andr1{
+    position:absolute;
+    background:#1abc9c;
+    color:white;
+    border: none;
+    font-size: 14;
+    font-family:Gotham-Bold;
+    height: 0;
+    
+    top:  224px;
+    left: 651.7px;
+    
+    width: 240.5px;
+    height: 56;
+}
+
+#an{
+    margin-left: -35px;
+    margin-top: 2.8px;
+    letter-spacing: 5.5px;
+}
+
+.andr2{
+    position:absolute;
+    background:#16a085;
+    border: none;
+    
+    top:  224px;
+    left: 892.2;
+    
+    width: 55.5px;
+    height: 56;
+}
+
+.apple .app1:hover, #an:hover{
+    color:black;
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.android .andr1:hover, #an:hover{
+    color:black;
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.apple .app2:hover{
+    background:black;
+    cursor:pointer;
+}
+
+.android .andr2:hover{
+    background:black;
+    cursor:pointer;
+}
+
+.ftph{
+    position:relative;
+     top:  -1108.75px;
+     left: 1096px;
+
+}
+
+.text7{
+     position:relative;
+     z-index: 3;
+     top:  -1120.5px;
+     left: 126.55px;
+     color: black;
+     font-size: 12;
+     font-family:Gotham-Bold;
+     letter-spacing: 3.125px;
+     height: 0;
+}
+
+.menubarr1{
+     white-space: nowrap;
+     position:relative;
+     z-index: 4;
+     font-size: 12;
+     top: -1185.5px;
+     left: 126.55px;
+     color: black;
+     font-family:Gotham-Bold;
+     letter-spacing: 3.2px;
+     width: 0;
+}
+
+.menubarr2{
+    white-space: nowrap;
+     position:relative;
+     z-index: 4;
+     font-size: 12;
+     top: -1200.25px;
+     left: 224.55px;
+     color: black;
+     font-family:Gotham-Bold;
+     letter-spacing: 3.2px;
+     width: 0;
+}
+
+.menubarr3{
+    white-space: nowrap;
+     position:relative;
+     z-index: 4;
+     font-size: 12;
+     top: -1213.75px;
+     left: 322.25px;
+     color: black;
+     font-family:Gotham-Bold;
+     letter-spacing: 3.30px;
+     width: 0;
+}
+
+.menubarr1:hover, .menubarr2:hover,.menubarr3:hover {
+    color:black;
+    cursor:pointer;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.tm1{
+     position:relative;
+     z-index: 4;
+     font-size: 12;
+     top: -1156.75px;
+     left: 209.50px;
+     color: black;
+     font-family:Gotham-Bold;
+     width: 0;
+}
+
+.tm2{
+     position:relative;
+     z-index: 4;
+     font-size: 12;
+     top: -1170.75px;
+     left: 308.25px;
+     color: black;
+     font-family:Gotham-Bold;
+     width: 0;
+}
