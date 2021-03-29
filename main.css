@@ -1,21 +1,21 @@
 @font-face {
 font-family: Gotham-Bold;
-src: url("C:/Users/Влад/Desktop/RPI lab1/shrift/GothamRoundedBold_21016.ttf");
+src: url("shrift/GothamRoundedBold_21016.ttf");
 }
 
 @font-face {
 font-family: Gotham-Book;
-src: url(C:/Users/Влад/Desktop/RPI lab1/shrift/GothamRoundedBook_21018.ttf);
+src: url(shrift/GothamRoundedBook_21018.ttf);
 }
 
 @font-face {
 font-family: Gotham-Medium;
-src: url(C:/Users/Влад/Desktop/RPI lab1/shrift/GothamRoundedMedium_21022.ttf);
+src: url(shrift/GothamRoundedMedium_21022.ttf);
 }
 
 @font-face {
 font-family: Gotham-Light;
-src: url(C:/Users/Влад/Desktop/RPI lab1/shrift/GothamRounded-Light.otf);
+src: url(shrift/GothamRounded-Light.otf);
 }
 
 html, body {
